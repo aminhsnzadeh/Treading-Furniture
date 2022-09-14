@@ -1,0 +1,40 @@
+$pri-color: #236E76;
+$sec-color: #202020;
+$nat-color-light: #ffffff;
+$text-light: #ffffff;
+$text-dark: #000000;
+$font-head: 'Oswald', sans-serif;
+$font-para: 'Roboto', sans-serif;
+.head-sm {
+    font-size: 1.625rem;
+    color: $text-dark;
+    font-family: $font-head;
+    font-weight: 400;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+.head-md {
+    font-size: 2.1875rem;
+    color: $text-dark;
+    font-family: $font-head;
+    font-weight: 300;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+.head-bold {
+    font-size: 3.125rem;
+    color: $text-dark;
+    font-family: $font-head;
+    font-weight: 200;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+h1 {
+    font-size: 3.125rem;
+    color: $text-dark;
+    font-family: $font-head;
+    font-weight: 200;
+}
