@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/projects/treading-furniture/static/css/main.dfb4ae95.css",
+    "main.js": "/projects/treading-furniture/static/js/main.a3545537.js",
+    "static/media/header-image1.png": "/projects/treading-furniture/static/media/header-image1.183c4fb438d011cf9826.png",
+    "static/media/resting-chair.png": "/projects/treading-furniture/static/media/resting-chair.df213511e2f3a0f08f77.png",
+    "static/media/table.png": "/projects/treading-furniture/static/media/table.b3d0f4f6a4d36807f1d5.png",
+    "static/media/item5.png": "/projects/treading-furniture/static/media/item5.4be1204c5b3ad3b443b2.png",
+    "static/media/work1.jpg": "/projects/treading-furniture/static/media/work1.b6d4624ca0ce4ac09de5.jpg",
+    "static/media/chair.png": "/projects/treading-furniture/static/media/chair.dfd9d5e364445249df71.png",
+    "static/media/item1.png": "/projects/treading-furniture/static/media/item1.0e6c59ee2d74933779ce.png",
+    "static/media/item3.png": "/projects/treading-furniture/static/media/item3.e6e6e17520fa69490964.png",
+    "static/media/work3.jpg": "/projects/treading-furniture/static/media/work3.ec288c547344c5ef156a.jpg",
+    "static/media/work4.jpg": "/projects/treading-furniture/static/media/work4.670b61dcae7e58fa2cc3.jpg",
+    "static/media/item4.png": "/projects/treading-furniture/static/media/item4.73edc124675370f3da21.png",
+    "static/media/work2.jpg": "/projects/treading-furniture/static/media/work2.eeccd84d9944cfd8bdb2.jpg",
+    "static/media/item2.png": "/projects/treading-furniture/static/media/item2.b68df64559381dac945f.png",
+    "static/media/lamb.png": "/projects/treading-furniture/static/media/lamb.0232f62c49c7b9685c4c.png",
+    "static/media/test2.jpg": "/projects/treading-furniture/static/media/test2.5b2af92c1fa1a6f70bb0.jpg",
+    "index.html": "/projects/treading-furniture/index.html",
+    "main.dfb4ae95.css.map": "/projects/treading-furniture/static/css/main.dfb4ae95.css.map",
+    "main.a3545537.js.map": "/projects/treading-furniture/static/js/main.a3545537.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb4ae95.css",
+    "static/js/main.a3545537.js"
+  ]
+}

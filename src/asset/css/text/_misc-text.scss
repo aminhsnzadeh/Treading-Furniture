@@ -1,0 +1,90 @@
+$pri-color: #236E76;
+$sec-color: #202020;
+$nat-color-light: #ffffff;
+$text-light: #ffffff;
+$text-dark: #000000;
+$font-head: 'Oswald', sans-serif;
+$font-para: 'Roboto', sans-serif;
+.nav-item {
+    font-size: 1.25rem;
+    color: $sec-color;
+    font-family: $font-head;
+    font-weight: 300;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        width: 40px;
+        height: 3px;
+        border-radius: 3px;
+        background-color: $pri-color;
+        transform: scale(0) translateX(-50%);
+        transition: 0.4s;
+        transform-origin: center;
+    }
+    &:hover {
+        &::before {
+            transform: scale(1) translateX(-50%);
+            transform-origin: left;
+        }
+    }
+}
+.nav-icon {
+    color: $nat-color-light;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 1.1rem;
+    &:hover {
+        color: $pri-color;
+        background-color: $nat-color-light;
+    }
+    a {
+        width: 100%;
+        height: 100%;
+    }
+}
+.misc-sm {
+    font-size: 1rem;
+    color: $pri-color;
+    font-family: $font-para;
+    font-weight: 400;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+.misc-md {
+    font-size: 1.125rem;
+    color: $text-dark;
+    font-family: $font-para;
+    font-weight: 400;
+    &[data-color="white"] {
+        color: $text-light;
+        opacity: 0.7;
+    }
+}
+.misc-num {
+    font-size: 2.625rem;
+    color: $pri-color;
+    font-family: $font-head;
+    font-weight: 300;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+.caption {
+    font-size: 1.125rem;
+    color: $text-dark;
+    font-family: $font-para;
+    font-weight: 500;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}

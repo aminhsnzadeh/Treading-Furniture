@@ -1,0 +1,25 @@
+$pri-color: #236E76;
+$sec-color: #202020;
+$nat-color-light: #ffffff;
+$text-light: #ffffff;
+$text-dark: #000000;
+$font-head: 'Oswald', sans-serif;
+$font-para: 'Roboto' sans-serif;
+#shop {
+    > section {
+        max-width: 1400px;
+        margin: 0 auto;
+        height: auto;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        > h5 {
+            margin: 0.5rem 0;
+        }
+        #slider {
+            margin-top: 4rem;
+        }
+    }
+}

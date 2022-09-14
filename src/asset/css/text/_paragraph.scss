@@ -1,0 +1,29 @@
+$pri-color: #236E76;
+$sec-color: #202020;
+$nat-color-light: #ffffff;
+$text-light: #ffffff;
+$text-dark: #000000;
+$font-head: 'Oswald', sans-serif;
+$font-para: 'Roboto', sans-serif;
+.para-sm {
+    font-size: 0.94rem;
+    color: $text-dark;
+    font-weight: 400;
+    font-family: $font-para;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
+.para-md {
+    font-size: 1rem;
+    color: $text-dark;
+    font-weight: 400;
+    font-family: $font-para;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    &[data-color="white"] {
+        color: $text-light;
+    }
+}
